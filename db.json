@@ -82,14 +82,6 @@
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "id": 2,
-      "name": "wafles",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
       "id": 3,
       "name": "Agua 500ml",
       "price": 500,
@@ -98,26 +90,82 @@
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "id": 1,
-      "name": "tacos de Pastor",
+      "id": 4,
+      "name": "Gaseosa",
+      "price": 200,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/soda.png",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Cerveza",
+      "price": 300,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/beer.png",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Hamburguesa simple",
       "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/burger.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "id": 2,
-      "name": "Enchiladas",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "id": 7,
+      "name": "Cupcake",
+      "price": 300,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/cupcake.png",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 8,
+      "name": "Papas fritas",
+      "price": 600,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/fries.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "id": 3,
-      "name": "Mole",
+      "id": 9,
+      "name": "HotDog + Gaseosa",
+      "price": 1100,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/hotdog-soda.png",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 10,
+      "name": "Jugo de frutas",
+      "price": 400,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/juice.png",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 11,
+      "name": "Aros de cebolla",
+      "price": 400,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/onion-rings.png",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 12,
+      "name": "Tarta",
+      "price": 300,
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/pie.png",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 13,
+      "name": "Pizza",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+      "image": "https://raw.githubusercontent.com/alison-leodra/api-mock-BQ/main/resources/images/pizza.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     }
@@ -146,6 +194,33 @@
       "password": "$2a$10$yd8NNpZfF9MxfuUsSkjra..iY1y0FBAV5a6RRavknjPvvvGWsBTmO",
       "role": "chef",
       "id": 5
+    },
+    {
+      "email": "sookie@gmail.com",
+      "password": "$2a$10$VvTQ/JudOVOVIwXE4i..xOxlBib2mXeJ7cPhK8FWLr9HDJGoQxKdG",
+      "role": "chef",
+      "details": {
+        "fullname": "sookie St james"
+      },
+      "id": 6
+    },
+    {
+      "email": "pepe@gmail.com",
+      "password": "$2a$10$buC/fbxgp0L0nRSbj8JxPOlwE7in7kfqo6GLA8FHnNDXgWtvgj1nS",
+      "role": "waiter",
+      "details": {
+        "fullname": "pepe linguini"
+      },
+      "id": 7
+    },
+    {
+      "email": "ripley@gmail.com",
+      "password": "$2a$10$p4DnJ3weX2p1PueB7zMYw.aSBaLx64o2AyQ.Nkr4Izv4iqpKVozHK",
+      "role": "admin",
+      "details": {
+        "fullname": "ellen ripley"
+      },
+      "id": 8
     }
   ]
 }
